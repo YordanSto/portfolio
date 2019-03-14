@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1024px) {
+  header>img {
+    max-width: 25%;
+  }
+  aside>ul {
+    margin: 5% auto auto auto;
+    padding: 0;
+  }
+  .blog button {
+    width: 100%;
+    float: right;
+  }
+  .content>p {
+    width: 100%;
+  }
+  .content>img {
+    width: 100%;
+  }
+}

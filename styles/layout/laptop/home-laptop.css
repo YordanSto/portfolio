@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1824px) {
+  header>img {
+    max-width: 20%;
+  }
+  .blog button {
+    width: 100%;
+    float: right;
+  }
+  .content>p {
+    width: 48%;
+  }
+  .content>img {
+    width: 48%;
+  }
+}
