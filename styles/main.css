@@ -115,6 +115,7 @@ p {
 
 main {
   background-color: #A9DDD6;
+  overflow: hidden;
 }
 
 footer {
