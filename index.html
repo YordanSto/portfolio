@@ -9,7 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	</head>
 	<body>
-	  	<header class="grid-item nav">
+	  	<header id="myHeader" class="grid-item nav">
 	  		<img id="logo" src="images/yordan-logo.png" alt="Logo Kasspeciaalzaak" />
 	  		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 	  	</header>
@@ -27,7 +27,7 @@
 	    	<img src="images/yordan-min.jpg">
 	    </main>
 
-	    <aside class="grid-item work">
+	    <aside id="work" class="grid-item work">
 	    	<h1>Mijn werk</h1>
 	    	<article>
 	    		<img src="images/pr-c.jpg">
@@ -60,7 +60,7 @@
 					<a href="#">Over mij</a>
 				</li>
 				<li>
-					<a href="#">Mijn werk</a>
+					<a href="#work" class="js-anchor-link">Mijn werk</a>
 				</li>
 				<li>
 					<a href="#">Contact</a>
@@ -81,6 +81,10 @@
 				</li>
 			</ul>	
 	    </footer>
-	  <script type="text/javascript" src="scripts/nav.js"></script>
+	    <script type="text/javascript" src="scripts/stickynav.js"></script>
+	    <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+	 	<script type="text/javascript" src="scripts/nav.js"></script>
+	  	<script type="text/javascript" src="scripts/scroll.js">
+	  </script>
 	</body>
 </html>
