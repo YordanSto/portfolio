@@ -54,13 +54,13 @@ p {
   flex-direction: column;
   align-items: flex-end;
   height: 0;
-  width: 100%;
+  width: 140px;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  right: 0;
+/*  background-color: rgb(0,0,0);*/
+  background-color: rgba(113,197,202,1);
   overflow-x: hidden;
   transition: 0.3s;
 }
@@ -69,7 +69,7 @@ p {
 /*  position: relative;
   top: 25%;*/
 /*  width: 100%;*/
-  margin-top: 4.8em;
+  margin-top: 1em;
   margin-right: 1.25em;
 }
 
@@ -77,7 +77,7 @@ p {
   padding: 0;
   text-decoration: none;
   font-size: 1.6em;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -87,13 +87,11 @@ p {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #333333;
 }
 
 .overlay .closebtn {
-/*  position: absolute;
-  top: 20px;
-  right: 45px;*/
+  color: white;
   margin-top: 0.2em;
   margin-right: 0.47em;
   font-size: 2.5em;
