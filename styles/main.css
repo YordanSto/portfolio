@@ -54,7 +54,8 @@ p {
   flex-direction: column;
   align-items: flex-end;
   height: 0;
-  width: 140px;
+/*  width: 140px;*/
+  height: 210px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -75,6 +76,7 @@ p {
 
 .overlay a {
   padding: 0;
+  text-align: right;
   text-decoration: none;
   font-size: 1.6em;
   color: white;
