@@ -104,6 +104,11 @@ p {
 
 /* end scroll style */
 
+header {
+  background-color: rgb(255, 255, 255, 0.9);
+  border-bottom: 1px #E8E8E8 solid;
+}
+
 main span{
   color: #8BB5B0;
 }
