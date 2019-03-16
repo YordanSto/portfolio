@@ -105,7 +105,9 @@ p {
 /* end scroll style */
 
 header {
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: white;
+  opacity: 0.9;
+  visibility: visible;
   border-bottom: 1px #E8E8E8 solid;
 }
 
