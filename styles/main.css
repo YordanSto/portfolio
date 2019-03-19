@@ -43,6 +43,8 @@ h3 {
 }
 
 p {
+  font-size: 1.2em;
+  line-height: 1.4;
   padding: 0;
   margin: 0;
 }
@@ -120,6 +122,10 @@ main span{
   color: #71C5CA;
 }
 
+main a {
+  color: inherit;
+}
+
 article {
   background-color: #ECECEC;
 }
@@ -148,4 +154,22 @@ footer a:hover {
 
 footer img {
   opacity: 0.7;
+}
+
+/************Mid**************/
+@media only screen and (min-width: 601px){
+
+}
+/**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 1024px) {
+
+}
+
+/*********End Large***********/
+
+/************XL**************/
+@media only screen and (min-width: 1824px) {
+
 }

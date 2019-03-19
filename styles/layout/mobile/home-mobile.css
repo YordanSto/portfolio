@@ -1,35 +1,5 @@
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  grid-template-areas: 
-        "nav nav"
-        "welcome welcome"
-        "work  work"
-        "more  more"
-        "foot  foot"; 
-}
-
-.nav{
-  grid-area: nav;
-} 
-
-.welcome {
-  grid-area: welcome;
-}
-
-.work {
-  grid-area: work;
-}
-.more {
-  grid-area: more;
-}
-
-.foot {
-  grid-area: foot;
-}
-
 header {
+  top: 0;
   display: flex;
   padding: 0.8em 1.25em;
   justify-content: space-between;
