@@ -132,6 +132,21 @@ main a {
   color: hsl(0, 0%, 100%, .62);
 }
 
+#pr2 {
+  background-color: #92c1ed;
+}
+
+#pr3 {
+  background-color: #222225;
+}
+
+#pr3 h2 {
+  color: white;
+}
+
+#pr3 p {
+  color: hsl(0, 0%, 100%, .62);
+}
 aside a {
   color: inherit;
 }
