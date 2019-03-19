@@ -33,13 +33,7 @@ main h1 {
 }
 
 h2 {
-  color: ;
-  font-size: 1em;
-}
-h3 {
-  font-size: 0.9em;
-  font-weight: normal;
-  color: 0;
+  font-size: 1.4em;
 }
 
 p {
@@ -126,8 +120,16 @@ main a {
   color: inherit;
 }
 
-article {
-  background-color: #ECECEC;
+#pr1 {
+  background-color: #ea4266;
+}
+
+#pr1 h2 {
+  color: white;
+}
+
+#pr1 p {
+  color: hsl(0, 0%, 100%, .62);
 }
 
 aside a {
