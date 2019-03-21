@@ -1,19 +1,40 @@
-@media only screen and (min-width: 1024px) {
-  header>img {
-    max-width: 25%;
+/* Tablet */
+
+@media only screen and (min-width: 560px){
+  header {
+    padding: 0.4em 1em;
   }
-  aside>ul {
-    margin: 5% auto auto auto;
-    padding: 0;
+  article img {
+    width: 70%;
   }
-  .blog button {
-    width: 100%;
-    float: right;
-  }
-  .content>p {
-    width: 100%;
-  }
-  .content>img {
-    width: 100%;
+  #logo {
+    width: 65%;
+    height: 65%;
   }
 }
+
+@media only screen and (min-width: 610px){
+  #logo {
+    width: 60%;
+    height: 60%;
+  }
+  article img {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 700px){
+  #logo {
+    width: 55%;
+    height: 55%;
+  }
+  article {
+    flex-direction: row;
+    align-items: center;
+  }
+  article img {
+    width: 60%;
+  }
+}
+
+/* Tablet */

@@ -121,7 +121,7 @@ main a {
 }
 
 #pr1 {
-  background-color: #ea4266;
+  background-color: #b5a6b4;
 }
 
 #pr1 h2 {
@@ -133,20 +133,13 @@ main a {
 }
 
 #pr2 {
-  background-color: #92c1ed;
+  background-color: #afc9df;
 }
 
 #pr3 {
-  background-color: #222225;
+  background-color: #e8e8e8;
 }
-
-#pr3 h2 {
-  color: white;
-}
-
-#pr3 p {
-  color: hsl(0, 0%, 100%, .62);
-}
+  
 aside a {
   color: inherit;
 }
@@ -173,8 +166,20 @@ footer img {
   opacity: 0.7;
 }
 
-/************Mid**************/
-@media only screen and (min-width: 601px){
+/* Tablet */
+
+@media only screen and (min-width: 560px){
+  header span {
+
+  }
+  main h1 {
+  font-size: 1.6em;
+  }
+  h2 {
+  font-size: 1.2em;
+  }
+  p {
+  font-size: 1.1em;
 
 }
 /**********End Mid************/

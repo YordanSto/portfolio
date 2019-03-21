@@ -55,18 +55,8 @@ article p {
 }
 
 article img {
-  width: 80%;
+  width: 100%;
   align-self: center;
-}
-
-#pr1 {
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-#vloer {
-  align-self: flex-end;
-  width: 80%;
 }
 
 footer {
@@ -84,4 +74,15 @@ footer img {
 footer p {
   font-size: 0.7em;
   align-self: flex-end;
+}
+
+/************Mobile Large**************/
+@media only screen and (min-width: 425px){
+  article img {
+    width: 80%;
+  }
+  #logo {
+    width: 80%;
+    height: 80%;
+  }
 }
