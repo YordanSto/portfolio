@@ -8,14 +8,14 @@ html {
 	box-sizing: inherit;
 }
 
+/*************** font styles ***************/
+
 body {
-	color: #333333;
+  color: #333333;
   font-family: 'HK Grotesk', sans-serif;
   margin: 0;
   padding: 0;
 }
-
-/*font styles*/
 
 h1, h2, h3 {
   font-family: 'HK Grotesk', sans-serif;
@@ -43,7 +43,9 @@ p {
   margin: 0;
 }
 
-/*nav styles*/
+/*************** font styles ***************/
+
+/*************** nav styles ****************/
 
 .overlay {
   display: flex;
@@ -55,16 +57,12 @@ p {
   z-index: 1;
   top: 0;
   right: 0;
-/*  background-color: rgb(0,0,0);*/
   background-color: rgba(113,197,202,1);
   overflow-x: hidden;
   transition: 0.3s;
 }
 
 .overlay-content {
-/*  position: relative;
-  top: 25%;*/
-/*  width: 100%;*/
   margin-top: 1em;
   margin-right: 1.25em;
 }
@@ -94,19 +92,14 @@ p {
   font-size: 2.5em;
 }
 
-/* end nav styles*/
-
-/* start scroll styles */
-
-
-/* end scroll style */
-
 header {
   background-color: white;
   opacity: 0.9;
   visibility: visible;
   border-bottom: 1px #E8E8E8 solid;
 }
+
+/*************** end nav styles ****************/
 
 header span {
   color: #71C5CA;
@@ -121,15 +114,7 @@ main a {
 }
 
 #pr1 {
-  background-color: #b5a6b4;
-}
-
-#pr1 h2 {
-  color: white;
-}
-
-#pr1 p {
-  color: hsl(0, 0%, 100%, .62);
+  background-color: #f494aa;
 }
 
 #pr2 {
@@ -142,6 +127,11 @@ main a {
   
 aside a {
   color: inherit;
+  text-decoration: none;
+}
+
+h1>a {
+  text-decoration: inherit;
 }
 
 footer {
@@ -170,16 +160,6 @@ footer img {
 
 @media only screen and (min-width: 560px){
   header span {
-
-  }
-  main h1 {
-  font-size: 1.6em;
-  }
-  h2 {
-  font-size: 1.2em;
-  }
-  p {
-  font-size: 1.1em;
 
 }
 /**********End Mid************/
