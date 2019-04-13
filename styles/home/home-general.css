@@ -1,0 +1,24 @@
+main span {
+  color: #71C5CA;
+}
+
+main a {
+  color: inherit;
+}
+
+#pr1 {
+  background-color: #f494aa;
+}
+
+#pr2 {
+  background-color: #afc9df;
+}
+
+#pr3 {
+  background-color: #e8e8e8;
+}
+  
+.work a {
+  color: inherit;
+  text-decoration: none;
+}

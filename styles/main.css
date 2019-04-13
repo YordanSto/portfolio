@@ -16,81 +16,39 @@ body {
   margin: 0;
   padding: 0;
 }
-
 h1, h2, h3 {
   font-family: 'HK Grotesk', sans-serif;
   padding: 0;
   margin: 0;
 }
-
 h1 {
   font-size: 1.2em;
 }
-
+h1 a {
+  color: inherit;
+}
+h1 a:hover {
+  text-decoration: none;
+}
 main h1 {
   font-weight: lighter;
   font-size: 1.6em;
 }
-
 h2 {
   font-size: 1.4em;
 }
-
 p {
   font-size: 1.2em;
   line-height: 1.4;
   padding: 0;
   margin: 0;
 }
-
+footer a {
+  font-size: 1em; 
+}
 /*************** font styles ***************/
 
-/*************** nav styles ****************/
-
-.overlay {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 0; 
-  height: 210px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgba(113,197,202,1);
-  overflow-x: hidden;
-  transition: 0.3s;
-}
-
-.overlay-content {
-  margin-top: 1em;
-  margin-right: 1.25em;
-}
-
-.overlay a {
-  padding: 0;
-  text-align: right;
-  text-decoration: none;
-  font-size: 1.6em;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay-content a {
-  padding: 0.2em 0;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #333333;
-}
-
-.overlay .closebtn {
-  color: white;
-  margin-top: 0.2em;
-  margin-right: 0.47em;
-  font-size: 2.5em;
-}
+/*************** header styles ****************/
 
 header {
   background-color: white;
@@ -98,70 +56,223 @@ header {
   visibility: visible;
   border-bottom: 1px #E8E8E8 solid;
 }
+header {
+  top: 0;
+  padding: 0.8em 1.25em;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999999999999;
+}
+header a {
+  width: 25%;
+  height: 25%;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+  margin: 0.3em 0 0 0;
+  padding: 0;
+}
 
-/*************** end nav styles ****************/
+/*************** end header styles ****************/
+
+/*************** menu styles ****************/
 
 header span {
   color: #71C5CA;
+  font-size: 22px;
+  cursor: pointer;
 }
-
-main span{
-  color: #71C5CA;
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 0; 
+  height: 210px;
+  position: fixed;
+  z-index: 999999999999;
+  top: 0;
+  right: 0;
+  background-color: #E8E8E8;
+  overflow-x: hidden;
+  transition: 0.3s;
 }
-
-main a {
-  color: inherit;
+.overlay-content {
+  margin-top: 1em;
+  margin-right: 1.25em;
 }
-
-#pr1 {
-  background-color: #f494aa;
-}
-
-#pr2 {
-  background-color: #afc9df;
-}
-
-#pr3 {
-  background-color: #e8e8e8;
-}
-  
-aside a {
-  color: inherit;
+.overlay a {
+  padding: 0;
+  text-align: right;
   text-decoration: none;
+  font-size: 1.6em;
+  color: #757C82;
+  display: block;
+  transition: 0.3s;
 }
-
-h1a {
-  text-decoration: initial;
+.overlay-content a {
+  padding: 0.2em 0;
 }
+.overlay a:hover, .overlay a:focus {
+  color: rgba(113,197,202,1);
+}
+.overlay .closebtn {
+  color: rgba(113,197,202,1);
+  margin-top: 5px;
+  margin-right: 0.47em;
+  font-size: 2.5em;
+}
+/*************** end menu styles ****************/
 
+/*************** footer style ****************/
 footer {
   border-top: 1px #E8E8E8 solid;
 }
-
 footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
+footer p {
+  font-size: 0.7em;
+}
 footer a {
-  font-size: 1em; 
   color: inherit;
 }
 footer a:hover {
   text-decoration: none;
 }
-
 footer img {
   opacity: 0.7;
 }
-
-/* Tablet */
-
-@media only screen and (min-width: 560px){
-  header span {
-
+/*************** footer layout ****************/
+footer {
+  padding: 2.5em 1.25em 1em 1.25em;
+  display: flex;
+  flex-direction: column;
 }
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  width: 20%;
+  height: 20%;
+  align-self: center;
+}
+
+footer p {
+  align-self: center;
+  margin-top: 20px;
+}
+/*************** end footer styles ****************/
+
+/* TABLET */
+@media only screen and (min-width: 560px){
+  header {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  }
+  header a {
+    width: 20%;
+    height: 20%;
+  }
+  .overlay .closebtn {
+  margin-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 610px){
+  header a {
+    width: 15%;
+    height: 15%;
+  }
+  ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  footer img {
+    width: 15%;
+  }
+}
+
+@media only screen and (min-width: 700px){
+  header a {
+    width: 10%;
+    height: 10%;
+  }
+  footer img {
+    width: 10%;
+  }
+}
+/* TABLET */
+
+
+/* LAPTOP */
+@media only screen and (min-width: 900px){
+  header a {
+  width: 10%;
+  height: 10%;
+  }
+  .overlay .closebtn {
+    margin-top: 2px;
+  }
+  footer {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+}
+
+/**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 1024px) {
+/* font styles */
+  .overlay a {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 1.1em;
+  }
+
+  main h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+/* font styles */
+
+/* layout */
+  .overlay {
+    height: 180px;
+  }
+  header a {
+    width: 8%;
+    height: 8%;
+  }
+  .more {
+    padding-bottom: 4em;
+  }
+}
+
+/************XL**************/
+@media only screen and (min-width: 1200px) {
+  article img {
+    width: 50%;
+  }
+}
+
+
 /**********End Mid************/
 
 /***********Large*************/
@@ -170,8 +281,3 @@ footer img {
 }
 
 /*********End Large***********/
-
-/************XL**************/
-@media only screen and (min-width: 1824px) {
-
-}

@@ -8,11 +8,12 @@
 		<link type="text/css" href="styles/home/home-mobile.css" rel="stylesheet" />
 		<link type="text/css" href="styles/home/home-tablet.css" rel="stylesheet" />
 		<link type="text/css" href="styles/home/home-laptop.css" rel="stylesheet" />
+		<link type="text/css" href="styles/home/home-general.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="styles/font.css">
 	</head>
 	<body>
 	  	<header class="grid-item nav">
-	  		<a href="index.html"><img id="logo" src="images/yordan-logo.png" alt="Logo Kasspeciaalzaak" /></a>
+	  		<a href="index.html"><img id="logo" src="images/yordan-logo.png" /></a>
 	  		<span onclick="openNav()">&#9776;</span>
 	  	</header>
 		<div id="myNav" class="overlay">
@@ -23,12 +24,13 @@
 		    <a href="mailto:y.s.stoyanov@hotmail.com?">Contact</a>
 		  </div>
 		</div>
-	    <main class="grid-item welcome">
+	    <main id="main" class="grid-item welcome">
 	    	<h1 id="intro"><span>Hallo!</span> Ik ben Yordan Stoyanov - een ontwerper die focust op betekenisvolle ervaringen. <br/> <br/>
 	    	Cool dat je op mijn portfolio bent beland.</h1>
 	    </main>
 
-	    <aside id="work" class="grid-item work">
+	    <aside id="work" class="work">
+
 	    	<a href="work/beweegvloer.html">
 	    	<article id="pr1">
 	    		<div>
@@ -38,6 +40,7 @@
 	    		<img src="images/beweegvloer-home.jpg">
 	    	</article>
 	    	</a>
+	    	<a href="work/spacex.html">
 	    	<article id="pr2">
 	    		<div>
 	    		<h2>SpaceX</h2>
@@ -45,6 +48,8 @@
 	    		</div>
 	    		<img src="images/spacex-home.jpg">
 	    	</article>
+	    	</a>
+	    	<a href="work/imperium.html">
 	    	<article id="pr3">
 	    		<div>
 	    		<h2>Imperium Theater</h2>
@@ -52,13 +57,15 @@
 	    		</div>
 	    		<img src="images/imperium-home.jpg">
 	    	</article>
+	    	</a>
 
 	    </aside>
-	    <aside class="grid-item more">
-	    	<h1>Heb je een leuke opdracht voor me of wil je ideeën uitwisselen, <a href="mailto:y.s.stoyanov@hotmail.com?">let me know</a>!</h1>
+	    <aside class="more">
+	    	<h1>Heb je een leuke opdracht voor mij of wil je ideeën uitwisselen, <a href="mailto:y.s.stoyanov@hotmail.com?">let me know</a>!</h1>
 	    </aside>
 
-	    <footer class="grid-item foot">
+	    <footer>
+	    	<div>
 			<ul>
 				<li>
 					<a href="mailto:y.s.stoyanov@hotmail.com?">Email</a>
@@ -70,10 +77,12 @@
 					<a href="https://www.instagram.com/yordan.st/">Instagram</a>
 				</li>
 			</ul>
-			<p>© 2019 Yordan Stoyanov</p>	
 			<img src="images/yordan-logo.png" alt="Logo Kasspeciaalzaak" />
+			</div>
+			<p>© 2019 Yordan Stoyanov</p>	
 	    </footer>
-	    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	    <script type="text/javascript" src="scripts/animation-home.js"></script>
 	 	<script type="text/javascript" src="scripts/nav.js"></script>
 	  </script>
 	</body>
