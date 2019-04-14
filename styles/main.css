@@ -24,7 +24,7 @@ h1, h2, h3 {
 h1 {
   font-size: 1.2em;
 }
-h1 a {
+a {
   color: inherit;
 }
 h1 a:hover {
