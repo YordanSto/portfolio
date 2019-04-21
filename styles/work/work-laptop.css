@@ -5,10 +5,11 @@
   .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
   }
   .intro p {
     width: 100%;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 33px;
   }
   #title {
@@ -34,7 +35,7 @@
 /***********Large*************/
 @media only screen and (min-width: 1024px) {
   #p2,#p3 {
-    width: 50%;
+    width: 70%;
   }
 }
 

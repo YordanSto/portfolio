@@ -2,10 +2,12 @@
 <html lang="nl">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Imperium</title>
+		<title>SpaceX</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" href="../styles/main.css" rel="stylesheet" />
-		<link type="text/css" href="../styles/work/beweegvloer-mobile.css" rel="stylesheet" />
+		<link type="text/css" href="../styles/work/work-mobile.css" rel="stylesheet" />
+		<link type="text/css" href="../styles/work/work-tablet.css" rel="stylesheet" />
+		<link type="text/css" href="../styles/work/work-laptop.css" rel="stylesheet" />
 		<link type="text/css" href="../styles/font.css" rel="stylesheet" />
 	</head>
 	<body>
@@ -22,13 +24,26 @@
 		  </div>
 		</div>
 	    <main>
-	    	<h1><span>De Beweegvloer</span></h1>
-	    	<p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.<br/> <br/>
-	    	<img src="">
+	    	<div class="intro">
+	    	<h1 id="title"><span>Imperium</span></h1>
+	    	<p id="p1">In het propedeusejaar op de opleiding Communcation & Multimedia Design, kreeg ik voor het project “Design Details, Realise” de fictieve opdracht om een herontwerp te maken van de website van Imperium theater in Leiden. De uitdaging van dit project was om het bestelproces makkelijker, simpeler en overzichtelijker te laten verlopen. Hierbij lag de focus op de laatste twee fases van de CMD ontwerpcirkel, Design Details en Realise.
+	    	</p>
+	    	</div>
+	    	<img id="pic1" src="../images/imperium-work.jpg">
 	   
-	    	<p>Een van mijn raarste, maar grappigste eigenschappen is dat ik soms snel ben afgeleid. Dat is eigenlijk maar goed ook, want hierdoor houd ik mijn woon en werkomgeving zo geordend mogelijk. Zodra ik klaar ben met werk of school ga ik sporten, gamen, lezen of ben ik met familie of vrienden. Momenteel zit ik in het tweede jaar op de studie Communication & Multimedia Design, waarop ik het eerste met een propedeuse heb afgesloten.</p>
-	    	<img src="">
+	    	<p id="p2">Nadat de Design Principles zijn geformuleerd, is het eerste Paper Prototype geschetst, die getest is op <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen's Heuristics</a>. Vervolgens bood een Flowchart meer inzicht in de overgebleven issues bij het bestelproces. Een sitemap was hierna de laatste input voor de start aan het tweede prototype.<br/><br/>
+	    	Clickable Wireframes in Axure vormden het skelet hiervan. Vervolgens heb ik op basis van een Styletile een visueel ontwerp gemaakt, waarmee het laatste deel van het interactieve prototype was afgerond. Na een Scenario-based user test, was het tijd voor een béta prototype. Dit was interessant om te doen en leverde verrassende verbeterpunten op.</p>
+	    	<img id="pic2" src="../images/imperium-work2.jpg">
+
+	    	<p id="p3">Ten slotte heb ik met HTML5, CSS3 en in mindere mate Javascript, een werkend béta prototype gerealiseerd. Dit was het eindproduct voor het project, dat <a href="https://yordansto.github.io/Imperium/">hier te bekijken is</a>.</p>
 	    </main>
+	    <aside class="next">
+	    	<a href="beweegvloer.html">
+	    	<p>Naar het volgende project</p>
+	    	<hr class="next-project__line"></hr>
+	    	<h1>De Beweegvloer</h1>
+	    	</a>
+	    </aside>
 
 	    <footer>
 	    	<div>
@@ -47,7 +62,8 @@
 			</div>
 			<p>© 2019 Yordan Stoyanov</p>	
 	    </footer>
-	    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	 	<script type="text/javascript" src="../scripts/animation-work.js"></script>
 	 	<script type="text/javascript" src="../scripts/nav.js"></script>
 	  </script>
 	</body>
