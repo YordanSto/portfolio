@@ -5,6 +5,12 @@
   	margin-left: auto;
   	margin-right: auto;	
   }
+  article { 
+    transition: all .2s ease-in-out; 
+  }
+  article:hover { 
+    transform: scale(1.02);
+  }
 }
 
 /**********End Mid************/

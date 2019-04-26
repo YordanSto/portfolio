@@ -19,6 +19,7 @@
   #p2,#p3 {
   padding: 60px 0;
   }
+
   main, aside {
   padding-left: 0;
   padding-right: 0;
@@ -36,6 +37,17 @@
 @media only screen and (min-width: 1024px) {
   #p2,#p3 {
     width: 70%;
+  }
+  #images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .prevpic {
+    margin: 0;
+    width: 50%;
   }
 }
 
