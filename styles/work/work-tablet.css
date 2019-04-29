@@ -12,5 +12,24 @@
       padding-left: 3em;
       padding-right: 3em;
   }
+  #images1 {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .prevpic1 {
+    margin: 0;
+    width: 33%;
+  }
+  #images2 {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .prevpic2 {
+    margin: 0;
+    width: 50%;
+  }
 }
 /* TABLET */

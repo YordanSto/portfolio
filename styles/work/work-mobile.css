@@ -61,7 +61,7 @@ main img {
   height: 100%;
 }
 
-#images {
+#images, #images1, #images2 {
 	width: 100%;
 	padding: 10px;
 	background-color: #e8e8e8;
@@ -70,7 +70,7 @@ main img {
 	justify-content: center;
 }
 
-.prevpic {
+.prevpic, .prevpic1, .prevpic2 {
 	height: auto;
 	margin: 10px 0;
 }
