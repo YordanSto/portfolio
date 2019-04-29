@@ -1,7 +1,42 @@
 @media only screen and (min-width: 900px){
-  main {
-  	max-width: 75%;
-  	margin-left: auto;
-  	margin-right: auto;	
-  }
+	main h1 {
+		font-size: 40px;
+	}
+	main {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main {
+	    display: grid;
+	    grid-template-columns: 1fr 1fr;
+	    grid-template-rows: 1fr 1fr;
+	    grid-column-gap: 40px;
+	    grid-row-gap: 80px;
+	 	grid-template-areas: 
+	        "first yordan1"
+	        "yordan2  second";
+    }
+
+  	#first {
+  		grid-area: first;
+  	}
+  	#yordan1{
+  		margin: 0;
+  		grid-area: yordan1;
+  	}
+  	#yordan2 {
+  		padding: 0;
+  		grid-area: yordan2;
+  	}
+  	#second {
+  		grid-area: second;
+  	}
+  	p {
+  		font-size: 18px;
+    	line-height: ;
+    }
+
 }

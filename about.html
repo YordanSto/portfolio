@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" href="styles/main.css" rel="stylesheet" />
 		<link type="text/css" href="styles/about/about-mobile.css" rel="stylesheet" />
+		<link type="text/css" href="styles/about/about-tablet.css" rel="stylesheet" />
 		<link type="text/css" href="styles/about/about-laptop.css" rel="stylesheet" />
 		<link type="text/css" href="styles/font.css" rel="stylesheet" />
 	</head>
@@ -24,14 +25,16 @@
 		</div>
 		</div>
 	    <main>
-	    	<img src="images/yordan-about.jpg">
-	    	<h1><span>Over mij</span></h1>
+	    	<img id="yordan1" src="images/yordan-about.jpg">
+	    	<div id="first">
+	    	<h1>Over mij</h1>
 	    	<p>Als persoon kan ik mijzelf omschrijven als een nieuwsgierig en altijd strevend naar de best mogelijke kwaliteit. De puntjes op de i zetten doe ik met plezier en het kost mij nauwelijks moeite om zaken vanuit verschillende invalshoeken te bekijken. Het lijkt mij geweldig om met creatieve services wat te kunnen betekenen voor mensen en voor de wereld. Een functie als Interaction/UX-designer sluit het meest aan bij deze ambities. <br/> <br/>
 
 	    	Relevante programma’s en programmeertalen uit mijn vakgebied, waarmee ik ervaring heb maar graag beter in word zijn: HTML5, CSS3, Photoshop, Illustrator, InDesign, Axure.</p>
+	    	</div>
 	    	<img id="yordan2" src="images/yordan-about2.jpg">
-	    	<p>Een van mijn raarste, maar grappigste eigenschappen is dat ik soms snel ben afgeleid. Dat is eigenlijk maar goed ook, want hierdoor houd ik mijn woon en werkomgeving zo geordend mogelijk. Zodra ik klaar ben met werk of school ga ik sporten, gamen, lezen of ben ik met familie of vrienden.<br/> <br/>
-	    	Momenteel zit ik in het tweede jaar op de studie Communication & Multimedia Design, waarop ik het eerste met een propedeuse heb afgesloten. Hiernaast bied ik parttime klantenservice aan voor Samsung via Messenger. Natuurlijk lijkt het mij een leukere uitdaging om als ontwerper aan de slag te gaan. Heb je een leuk aanbod of vind je dat ik goed bij je team pas? <br/> <br/>
+	    	<p id="second">Een van mijn raarste, maar grappigste eigenschappen is dat ik soms snel ben afgeleid. Dat is eigenlijk maar goed ook, want hierdoor houd ik mijn woon en werkomgeving zo geordend mogelijk. Zodra ik klaar ben met werk of school ga ik sporten, gamen, lezen of ben ik met familie of vrienden.<br/> <br/>
+	    	Momenteel zit ik in het tweede jaar op de studie Communication & Multimedia Design, waarop ik het eerste met een propedeuse heb afgesloten. Hiernaast bied ik parttime klantenservice aan voor Samsung via Messenger. Natuurlijk lijkt het mij een leukere uitdaging om als ontwerper aan de slag te gaan. Heb je een leuk aanbod of vind je dat ik goed bij jouw team pas? <br/> <br/>
 	    	<a href="mailto:y.s.stoyanov@hotmail.com?">Neem contact op!</a></p>
 	    </main>
 
@@ -52,7 +55,9 @@
 			</div>
 			<p>© 2019 Yordan Stoyanov</p>	
 	    </footer>
-	    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	   	<script type="text/javascript" src="scripts/animation-about.js"></script>
 	 	<script type="text/javascript" src="scripts/nav.js"></script>
 	  </script>
 	</body>

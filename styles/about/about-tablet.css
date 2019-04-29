@@ -1,0 +1,17 @@
+/* TABLET */
+@media only screen and (min-width: 560px){
+
+}
+
+@media only screen and (min-width: 610px){
+
+}
+
+@media only screen and (min-width: 700px){
+    main,aside {
+      padding-left: 3em;
+      padding-right: 3em;
+  }
+  
+}
+/* TABLET */

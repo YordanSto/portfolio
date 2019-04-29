@@ -4,32 +4,34 @@
 }
 
 @media only screen and (min-width: 610px){
-
+	.intro {
+	margin-bottom: 30px;
+	}
+	#images1 {
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+	.prevpic1 {
+	margin: 0;
+	width: 33%;
+	}
+	#images2 {
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+	.prevpic2 {
+	margin: 0;
+	width: 50%;
+	}
 }
 
 @media only screen and (min-width: 700px){
     main,aside {
       padding-left: 3em;
       padding-right: 3em;
-  }
-  #images1 {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .prevpic1 {
-    margin: 0;
-    width: 33%;
-  }
-  #images2 {
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .prevpic2 {
-    margin: 0;
-    width: 50%;
   }
 }
 /* TABLET */
